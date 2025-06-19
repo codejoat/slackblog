@@ -52,7 +52,6 @@ header {
   font-size: 0.9rem;
   font-style: italic;
   border-bottom: 1px solid var(--color-border);
-  
 }
 main {
   flex-grow: 1;
@@ -177,6 +176,10 @@ footer nav a,
   text-decoration: none;
   font-size: 1rem;
 }
+.status-note {
+  color: orangered;
+  font-style: italic;
+}
 @media (max-width: 47rem) {
   .entry img {
     display: block;
@@ -202,7 +205,7 @@ footer nav a,
 }
 @media (min-width: 93rem) {
   .support {
-    right: 0;
+    right: -0.5rem;
     width: auto;
     margin-right: calc(100vw - 93rem);
   }
